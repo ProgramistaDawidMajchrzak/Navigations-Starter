@@ -7,7 +7,7 @@ function Sidebar() {
         <div className="sidebar">
             <ul>
                 <li>
-                    <NavLink to="/component1">Component 1</NavLink>
+                    <NavLink to="/">Component 1</NavLink>
                 </li>
                 <li>
                     <NavLink to="/component2">Component 2</NavLink>

@@ -27,5 +27,16 @@ ul li a:hover{
 }
 .active{
     font-weight: bold;
-
+}
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        position: fixed;
+        top: 0;
+        left: -200px;
+        width: 200px;
+        transition: 0.2s linear;
+    }
+    .sidebar-open{
+        left: 0;
+    }
 }

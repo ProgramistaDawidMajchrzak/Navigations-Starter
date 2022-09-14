@@ -10,11 +10,12 @@ import {
     Component6,
 } from '../index';
 
-function Content() {
+function Content({ isOpen }) {
     return (
-        <div className="content">
+        // <div className={isOpen ? "sidebar-open" : "sidebar"}>
+        <div className="sidebar-open">
             <Routes>
-                <Route path="/component1" element={<Component1 />} />
+                <Route path="/" element={<Component1 />} />
                 <Route path="/component2" element={<Component2 />} />
                 <Route path="/component3" element={<Component3 />} />
                 <Route path="/component4" element={<Component4 />} />
