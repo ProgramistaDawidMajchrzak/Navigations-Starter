@@ -1,0 +1,53 @@
+[
+    {
+        "routeName": "Component 1",
+        "path": "/component1",
+        "subRouting": []
+    },
+    {
+        "routeName": "Component 2",
+        "path": "/component2",
+        "subRouting": [
+            {
+                "routeName": "SubComponent 1",
+                "path": "/subComponent1",
+                "subRouting": []
+            },
+            {
+                "routeName": "SubComponent 2",
+                "path": "/subComponent2",
+                "subRouting": []
+            },
+            {
+                "routeName": "SubComponent 3",
+                "path": "/subComponent3",
+                "subRouting": []
+            },
+            {
+                "routeName": "SubComponent 4",
+                "path": "/subComponent4",
+                "subRouting": []
+            },
+        ]
+    },
+    {
+        "routeName": "Component 3",
+        "path": "/Component3",
+        "subRouting": []
+    },
+    {
+        "routeName": "Component 4",
+        "path": "/Component4",
+        "subRouting": []
+    },
+    {
+        "routeName": "Component 5",
+        "path": "/Component5",
+        "subRouting": []
+    },
+    {
+        "routeName": "Component 6",
+        "path": "/Component6",
+        "subRouting": []
+    }
+]

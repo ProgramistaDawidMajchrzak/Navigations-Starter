@@ -1,0 +1,31 @@
+.sidebar{
+    width: 200px;
+    height: 500px;
+    background-color: gray;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+ul li{
+    list-style: none;
+    padding: 12px 24px;
+    border-bottom: .2rem solid lightgray;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+ul li a:hover{
+    font-weight: bold;
+}
+.active{
+    font-weight: bold;
+
+}
